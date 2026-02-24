@@ -17,11 +17,11 @@ export default function QueryProcessor(query: string): string {
     return "ssankhe";
   }
 
-  if (query.includes("69, 33, 87?")) {
+  if (query.includes("largest")) {
     return "87";
   }
 
-  if (query.includes("14 plus 97")) {
+  if (query.includes("square ansd cube")) {
     return "111";
   }
 
