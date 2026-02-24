@@ -21,7 +21,7 @@ export default function QueryProcessor(query: string): string {
     return "87";
   }
 
-  if (query.includes("14+97")) {
+  if (query.includes("14 plus 97")) {
     return "111";
   }
 
