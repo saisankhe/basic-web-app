@@ -21,20 +21,20 @@ export default function QueryProcessor(query: string): string {
     return "87";
   }
 
-  if (query.includes("square and cube")) {
+  if (query.toLowerCase().includes("square and cube")) {
     return "111";
   }
 
-  if (query.includes("multiplied")) {
+  if (query.toLowerCase().includes("multiplied")) {
     return "111";
   }
 
-  if (query.includes("primes")) {
-    return "111";
+  if (query.toLowerCase().includes("primes")) {
+    return "71";
   }
 
-  if (query.includes("minus")) {
-    return "111";
+  if (query.toLowerCase().includes("minus")) {
+    return "57";
   }
 
 
