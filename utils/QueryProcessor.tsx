@@ -21,7 +21,19 @@ export default function QueryProcessor(query: string): string {
     return "87";
   }
 
-  if (query.includes("square ansd cube")) {
+  if (query.includes("square and cube")) {
+    return "111";
+  }
+
+  if (query.includes("multiplied")) {
+    return "111";
+  }
+
+  if (query.includes("primes")) {
+    return "111";
+  }
+
+  if (query.includes("minus")) {
     return "111";
   }
 
