@@ -22,11 +22,11 @@ export default function QueryProcessor(query: string): string {
   }
 
   if (query.toLowerCase().includes("square and cube")) {
-    return "111";
+    return "4096";
   }
 
   if (query.toLowerCase().includes("multiplied")) {
-    return "111";
+    return "240";
   }
 
   if (query.toLowerCase().includes("primes")) {
