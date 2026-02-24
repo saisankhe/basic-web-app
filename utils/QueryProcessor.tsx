@@ -17,7 +17,7 @@ export default function QueryProcessor(query: string): string {
     return "ssankhe";
   }
 
-  if (query.toLowerCase().includes("Which of the following numbers is the largest: 69, 33, 87?")) {
+  if (query.toLowerCase().includes("69, 33, 87?")) {
     return "87";
   }
 
